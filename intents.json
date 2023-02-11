@@ -1,0 +1,317 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hi Cycler",
+                "hello",
+                "hello there",
+                "well hello",
+                "hey",
+                "good morning",
+                "good evening",
+                "good afternoon",
+                "good night",
+                "is anyone around here?"
+            ],
+            "responses": [
+                "Hey there",
+                "Hello, how may I assist you?",
+                "Hello there",
+                "Welcome",
+                "Well hello there",
+                "Hi, I am your guide how could I help you?",
+                "Hello there, What can i do for you?",
+                "Welcome my friend, how may I assist you"
+            ]
+        },
+        {
+            "tag": "introduce",
+            "patterns": [
+                "who are you?",
+                "whats your name",
+                "who is talking to me?",
+                "who am i talking to?",
+                "interduce yourself",
+                "introduce yourself",
+                "i want to know your name",
+                "i wanna know your name"
+            ],
+            "responses": [
+                "I am your Tadweer helper, you can call me Cycler :)",
+                "Your assistant, I go by the name Cycler :)",
+                "I am Cycler, you can ask me anything about application and i will try my best to help :)",
+                "I go by the name Cycler :)"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "goodbye",
+                "bye",
+                "I have to go now",
+                "Alright i am done",
+                "bye bye",
+                "see you later",
+                "alright then",
+                "untill next time"
+                
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you soon, Thanks for stopping by!",
+                "Alright, goodbye my friend :)",
+                "Thanks for stopping by, Goodbye!",
+                "See you around later!",
+                "Goodbye, See you next time!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "thank you so much",
+                "thanks for the help"
+            ],
+            "responses": [
+                "No problem, I am available all the time :)",
+                "You are welcome my friend",
+                "My pleasure",
+                "I am always here to help you",
+                "I am glad I could help you",
+                "No worries, I am at your service"
+            ]
+        },
+        {
+            "tag": "profile",
+            "patterns": [
+                "can i change my profile?",
+                "am i able to do changes in my profile?",
+                "profile changes",
+                "can i alter my information?",
+                "can i change my profile information?",
+                "where can i change my information?",
+                "i want to change my profile",
+                "i want to change my profile information",
+                "change profile deatails",
+                "profile settings",
+                "change profile info",
+                "i want to modify my profile"
+            
+            ],
+            "responses": [
+                "Go to settings from the navigation bar below, then edit your profile information and save",
+                "Go to the settings from the navigation bar then do the changes you like and hit save",
+                "Go to settings from the menu below, change information and save"
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "what types of payment methods are available?",
+                "can i pay through the app",
+                "can i pay using PayPal?",
+                "can i pay with credit card?",
+                "can i pay in cash?",
+                "how can i pay?",
+                "payment choices?",
+                "payment methods?",
+                "payment options?",
+                "with what can i pay?",
+                "what are the payment options?"
+            ],
+            "responses": [
+                "For now there are no payment methods through the app",
+                "As of now there are no payment methods avaliable, in the near future we will add some options"
+            ]
+        } ,
+        {
+            "tag": "search",
+            "patterns": [
+                "search for items?",
+                "search for products?",
+                "find the products?",
+                "can i search for products?",
+                "where to find the products?",
+                "search for something",
+                "where is the search bar",
+                "how do i search for products?",
+                "i wanna search",
+                "i wanna search for items",
+                "find the search bar?",
+                "how can i search?",
+                "search bar?"
+            ],
+            "responses": [
+                "You can search for products from the search bar at the top of the home tab",
+                "You can find the search bar at the home tab",
+                "Use the search bar at the top of the home tab to find the products you want"
+            ]
+        } ,
+        {
+            "tag": "buy",
+            "patterns": [
+                "how can i buy items",
+                "buy something",
+                "how do i buy products",
+                "i want to buy something",
+                "i want to buy a book",
+                "buy some stuff",                
+                "can i buy products?",
+                "where can i buy?",
+                "buy",
+                "purchase item"
+            ],
+            "responses": [
+                "You can search for the product you want from the search bar in the home tab, then select the product and hit buy, this app only faciltate the process and show the items avaiable for sale, you can't purchase directly through it at the moment"
+            ]
+        }  ,
+        {
+            "tag": "sell",
+            "patterns": [
+                "can i add products for sale?",
+                "i want to sell my stuff",
+                "sell my stuff",
+                "i want to sell my products",
+                "sell my learning resources",
+                "i wanna sell my stuff",
+                "i wanna sell my products",
+                "sell my learning resources",                
+                "can i sell products?",
+                "where can i sell my products?",
+                "from where i can add my products for sale?",
+                "how can i add my products for sale?",
+                "add products",
+                "i wanna add my items for sale",
+                "put for sale",
+                "add items for selling",
+                "add products for sale",
+                "sell products"
+            ],
+            "responses": [
+                "Yes, you can add new products for sale from the plus icon in the lower side of your screen, then add the product information",
+                "If you would like to put your products for sale, you can use the plus icon on the lower side of your screen, then add your product information"
+            ]
+        }  ,
+        {
+            "tag": "product_limitations",
+            "patterns": [
+                "what kind of products are avaiable in the app?",
+                "products available in this app?",
+                "limitations for adding products?",
+                "are there any limitations for adding items?",
+                "restrictions?",
+                "limitations?",
+                "producets limitations?",
+                "what are the restrictions?",
+                "are there any restrictions or limitations?",
+                "rules for trading?",
+                "rules",
+                "policy"
+            ],
+            "responses": [
+                "This application only accept the products that are related to the university, such as books other learning materials",
+                "The product must be a learning material or a tool that is used for studying"
+            ]
+        },
+        {
+            "tag": "retrieve_forgotten_password",
+            "patterns": [
+                "i forgot my password",
+                "how can i retreive my password?",
+                "i cant remember my password",
+                "recover password",
+                "my password is gone",
+                "my password is lost",
+                "password forgotten",
+                "password recovery?",
+                "steps to recover password?",
+                "i wanna recover my password i forgot it"
+            ],
+            "responses": [
+                "This feature will be added soon!, but if you like to change your password you can go to the settings from the navigation bar below",
+                "Sorry i cant provide that service at the moment, but you can change your password from the settings icon down below",
+                "I don't have the ability to do it right now, you can change your password from the settings icon in the navigation bar",
+                "I wish i could help with that, maybe soon i could, if you like to change your password you can go to the settings from the navigation bar below"
+            ]
+        },
+        {
+            "tag": "rating",
+            "patterns": [
+                "do i have a rating?",
+                "how can i see my rating?",
+                "check my rating",
+                "see my rating",
+                "take a look at my rating",
+                "i want to look at my rating",
+                "rate"
+            ],
+            "responses": [
+                "Sorry this feature is yet to be added",
+                "This feature will be added in the near future",
+                "You can not see that at the moment there are no ratings in the app",
+                "This feature is not available in the app"
+            ]
+        },        
+        {
+            "tag": "how are you?",
+            "patterns": [
+                "how are you doing?",
+                "how are you feeling?",
+                "how are you feeling today",
+                "how is your day?"
+                
+            ],
+            "responses": [
+                "I am always good :)",
+                "Good, thanks for caring :)",
+                "I have no feelings actually, but yeah I am having a blast!",
+                "Always good my friend :)",
+                "I really appriciate you asking! I am always good :)"
+            ]
+            
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "delivery process?",
+                "delivery option?",
+                "does the item delivers to me?",
+                "whats the delivery methods?",
+                "will there be delivery?",
+                "what about the delivery?"
+                
+            ],
+            "responses": [
+                "In this version there is no delivery options, contact the buyer/seller",
+                "You will meet with the buyer/seller in campus, no delivery options for now",
+                "You will have to negotiate the terms with buyer/seller, the app does not provide another delivery option yet"
+            ]
+            
+        },
+        {
+            "tag": "transaction_history",
+            "patterns": [
+                "see my transaction history?",
+                "check my transaction history",
+                "show me my transaction history?",
+                "can i see my transaction history?",
+                "can i see the trades history?",
+                "how much money i spent?"
+                
+            ],
+            "responses": [
+                "Sorry transaction history is not available, at this version of the app",
+                "Transaction history is not available in the app",
+                "I wish I could help with that but transaction history is not available in this app :("
+            ]
+            
+        }
+     
+                    
+    ]
+
+
+}
